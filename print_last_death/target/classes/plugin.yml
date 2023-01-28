@@ -1,0 +1,14 @@
+main: dev.tommy.plugin.print_last_death.App
+name: print_last_death
+version: 1.0
+description: print last death
+api-version: 1.18
+author: Tommy
+
+commands:
+  pd:
+    description: the main command of this plugin
+    usage: "/pd [help|print [null|Playername]|enabled [null|true|false]]"
+  printDeath:
+    description: the main command of this plugin
+    usage: "/printDeath [help|print [null|Playername]|enabled [null|true|false]]"
